@@ -1,6 +1,5 @@
 # Hilbert data visualiser
-A useful way to visualise the data of any file.\
-A Hilbert Curve is one of the best ways to map one dimension to two dimensions such that two data points close together in 1D remains close together in 2D space.\
+A useful way to visualise the data of any file - a Hilbert Curve is one of the best ways to map one dimension to two dimensions such that two data points close together in 1D remains close together in 2D space.\
 This is important to show the structure of data in a single dimension, giving an intutive way to visualise it.\ 
 ## Examples
 The binary of this program on my computer\
