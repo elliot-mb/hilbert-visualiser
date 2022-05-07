@@ -2,7 +2,8 @@
 A useful way to visualise the data of any file - a Hilbert curve is one of the best ways to map one dimension to two dimensions such that two data points close together in 1D remains close together in 2D space.\
 This is important to preserve the structure of data, giving an intutive way to visualise it.
 # Usage
-Provide a file and the program writes a png ``hilbert.png``, which is the image.
+Provide a file and the program writes a png ``hilbert.png``, which is the image.\
+**A word of warning** - the program mallocs an array equal to the file size; only use this with files less than 100MB unless you know you have the memory.
 ```./a.out --help
 Usage: ./[OUTFILE] [OPTN] [FILE]
 The OUTFILE is the name of the compiled program (typically 'a.out' by default).
