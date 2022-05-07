@@ -5,6 +5,7 @@ This is important to preserve the structure of data, giving an intutive way to v
 Provide a file and the program writes a png ``hilbert.png``, which is the image.
 ```./a.out --help
 Usage: ./[OUTFILE] [OPTN] [FILE]
+The OUTFILE is the name of the compiled program (typically 'a.out' by default).
    -b -> shows file in bytes.
    -c -> shows file in colour (triplets of bytes).
 The FILE argument is the path of any file stored as bytes.
