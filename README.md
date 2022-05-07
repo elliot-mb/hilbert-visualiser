@@ -4,7 +4,7 @@ This is important to preserve the structure of data, giving an intutive way to v
 # Usage
 Provide a file and the program writes a png ``hilbert.png``, which is the image.
 ```./a.out --help
-Usage: ./hilbert [OPTN] [FILE]
+Usage: ./[OUTFILE] [OPTN] [FILE]
    -b -> shows file in bytes.
    -c -> shows file in colour (triplets of bytes).
 The FILE argument is the path of any file stored as bytes.
