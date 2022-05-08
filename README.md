@@ -1,6 +1,6 @@
 # Hilbert curve data visualiser
 A useful way to visualise the data of any file - a Hilbert curve is one of the best ways to map one dimension to two dimensions such that two data points close together in 1D remains close together in 2D space.\
-This is important to preserve the structure of data, giving an intutive way to visualise it.
+This is important to preserve the structure of data, giving an intutive way to visualise it. This program places one/three byte(s) on each vertex of the hilbert curve as a greyscale or RGB pixel respectively.
 # Usage
 Provide a file and the program writes a png ``hilbert.png``, which is the image.\
 **A word of warning** - the program mallocs an array equal to the file you give; only use this with files less than a couple hundered MB unless you know you have the memory.
